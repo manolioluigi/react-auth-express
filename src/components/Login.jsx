@@ -31,7 +31,7 @@ const Login = () => {
 
             // Aggiungi un log qui per vedere se questo viene eseguito
             console.log('Login eseguito con successo');
-            navigate('/blog');
+            navigate('/dashboard');
         } catch (error) {
             console.error('Errore durante il login:', error);
         }

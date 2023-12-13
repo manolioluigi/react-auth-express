@@ -127,7 +127,6 @@ function ArticleForm({ articleToEdit }) {
                                 const isChecked = e.target.checked;
                                 setTagId((prevTagId) => {
                                     if (isChecked) {
-                                        // Imposta solo un tag alla volta
                                         return [tag.id];
                                     } else {
                                         return [];

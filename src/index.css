@@ -1,0 +1,137 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgba(229, 229, 229, 255);
+}
+
+header {
+  height: 10vh;
+}
+
+footer {
+  position: sticky;
+  bottom: 0;
+  background-color: rgba(51, 51, 51, 255);
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  width: 500px;
+}
+
+.upper-card {
+  background-color: rgba(204, 204, 204, 255);
+  height: 300px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.upper-card img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bottom-card {
+  background-color: white;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 15px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.badge {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: rgba(218, 165, 33, 255);
+  color: white;
+  width: fit-content;
+  font-size: 14px;
+}
+
+.footer-content {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  height: 13vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15vh;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+/* Utility */
+
+.height-full {
+  height: 100vh;
+}
+
+.height-77 {
+  min-height: 77vh;
+}
+
+.height-10 {
+  height: 10vh;
+}
+
+.width-full {
+  width: 100%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.padding-0 {
+  padding: 0;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-purple {
+  background-color: purple;
+}
+
+.link {
+  text-decoration: none;
+  color: rgba(51, 51, 51, 255);
+}
